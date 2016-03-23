@@ -1,0 +1,161 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400);
+
+body, html {
+    background: #333;
+    color: #f8f8f8;
+    padding: 0;
+    margin: 0;
+    font-family: Lato, "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+}
+header {
+    text-align: center;
+    background: #222;
+    margin: 0;
+    padding: 10px 0 15px 0;
+    border-bottom: 2px #000 solid;
+}
+header>h2.title {
+    font-size: 2em;
+    letter-spacing: 5px;
+    color: #E56229;
+    margin: 0;
+    padding: 0;
+}
+header>h3.subtitle {
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0 0 10px 0;
+    font-weight: 300;
+}
+.container {
+    padding: 50px 30px 15px;
+    background: #f8f8f8;
+}
+#questionForm {
+    background: #AEAEAE;
+    color: #222;
+    padding: 10px 20px;
+    margin: 30px 0 0 0;
+    border-radius: 8px;
+}
+#questionForm>#questioning>input {
+    padding: 5px 3px;
+    margin-right: 8px;
+}
+#questionForm>#questioning>input[type="submit"] {
+    margin-top: 10px;
+}
+#questionForm>#questioning>h2#question {
+    font-weight: 300;
+}
+#gameboard {
+    background: #f8f8f8;
+    width: calc(100% - 20px);
+    padding: 20px 10px;
+    display: table;
+}
+figure.spot {
+    width: 6.6667%;
+    height: 50px;
+    font-size: 0.8em;
+    display: table-cell;
+    text-align: right;
+    padding-right: 10px;
+    border: 2px #333 solid;
+    color: #333;
+    vertical-align: middle;
+}
+img#player {
+    height: 50px;
+    width: auto;
+    position: absolute;
+    top: 155px;
+    -webkit-transition: all ease 1s;
+    transition: all ease 1s;
+}
+img#player.spotNumber1 {
+    left: 5.3%;
+}
+img#player.spotNumber2 {
+    left: 15%;
+}
+img#player.spotNumber3 {
+    left: 24.5%;
+}
+img#player.spotNumber4 {
+    left: 34%;
+}
+img#player.spotNumber5 {
+    left: 43.5%;
+}
+img#player.spotNumber6 {
+    left: 53.2%;
+}
+img#player.spotNumber7 {
+    left: 63%;
+}
+img#player.spotNumber8 {
+    left: 72.5%;
+}
+img#player.spotNumber9 {
+    left: 82%;
+}
+img#player.spotNumber10 {
+    left: 91.5%;
+}
+
+.wonContainer {
+    display: none;
+    background: #9CE669;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.won {
+    width: 70%;
+    margin: 0 auto;
+    color: #111;
+}
+.won>h3 {
+    font-size: 2em;
+    color: #DB5858;
+}
+.won>p {
+    line-height: 5px;
+}
+.won>img.cookie {
+    max-width: 40%;
+    width: 50%;
+    display: block;
+    margin: 30px auto;
+}
+.hidden {
+    display: none;
+}
+.appear {
+    display: block;
+}
+#rightWrongAlert {
+    margin: 15px 0 10px 0;
+    font-size: 2em;
+}
+.right {
+    color: green;
+}
+.wrong {
+    color: red;
+}
+footer>p {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    font-size: 1.2em;
+    font-weight: 300;
+    color: #C8C8C8;
+}

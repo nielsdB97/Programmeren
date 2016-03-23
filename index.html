@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Posé</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="author" content="Niels de Bruin">
+    <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1, user-scalable=0">
+</head>
+<body>
+    <header>
+        <h2 class="title">Posé</h2>
+        <h3 class="subtitle">Answer to win!</h3>
+    </header>
+    <main>
+        <div class="container">
+            <section id="gameboard"></section><!-- /section#gameboard -->
+            <img src="img/player.png" id="player" alt="player">
+
+            <section id="questionForm">
+                <form id="questioning" method="POST">
+                <h2 id="question"></h2>
+                    <input type="radio" name="antwoord" id="antwoord1" value="1"><label for="antwoord1">True</label><br>
+                    <input type="radio" name="antwoord" id="antwoord2" value="0"><label for="antwoord2">False</label><br>
+                    <input type="submit" value="Confirm" id="submitAntwoord">
+                </form>
+                <div id="rightWrongAlert"></div>
+            </section><!-- /section#questionForm -->
+            <div class="wonContainer">
+                <section class="won">
+                    <h3>Congratulations!</h3>
+                    <p>You have won the game.</p>
+                    <p>You can now get a free cookie at the most nearby Starbucks that plays along.</p>
+                    <img src="img/cookie.png" class="cookie" alt="cookie"> <!-- from http://upload.wikimedia.org/wikipedia/commons/7/70/Cookie.png -->
+                </section>
+            </div>
+        </div><!-- /div.container -->
+    </main>
+    <footer>
+        <p>&copy;Niels de Bruin, 2015</p>
+    </footer>
+
+
+<script type="text/javascript" src="js/scrizzles.js"></script>
+</body>
+</html>
