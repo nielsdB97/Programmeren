@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.pgb.brewapp" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Programmeren</name>
+    <description>
+        Mijn eindopdracht voor het vak programmeren.
+    </description>
+
+    <author email="niels@nielsdb97.nl" href="http://nielsdb97.nl">
+       Niels de Bruin
+    </author>
+
+    <preference name="phonegap-version" value="cli-6.0.0" />
+</widget>
